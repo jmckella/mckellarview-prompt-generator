@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# Legacy Netlify subdomain → custom domain
+[[redirects]]
+  from = "https://mckellarview-prompt-generator.netlify.app/*"
+  to = "https://prompts.motionvisualmedia.com/:splat"
+  status = 301
+  force = true
